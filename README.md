@@ -28,5 +28,14 @@ We have user [documentation](https://github.com/o360/user-documentation) which h
 
 For the employees who participate in the events, the system usage is pretty straightforward and doesn't require special knowledge.
 
+## Getting Started
+
+To deploy the system you need several requirements:
+
+* **Linux system** which is able to run dockerized applications - we use Ubuntu 18.04 deployed to 2 core, 4 GB RAM, 100 GB SSD VPS;
+* **Google Drive Account** which is used to upload the feedback events results in the form of spreadsheets - the account can be personal or business, but proper account permissions must be configured;
+* **SMTP server must be configured** - you can use the same gmail account for e-mail sending or use separate server which is wise if you have pretty large group of users, because Gmail could give you a ban when you are trying to send a lot of messages.
+
+
 
 
