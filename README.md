@@ -30,7 +30,7 @@ For the employees who participate in the events, the system usage is pretty stra
 
 ## Getting Started
 
-To deploy the system you need several requirements:
+To deploy the system you need to meet several requirements:
 
 * **Linux system** which is able to run dockerized applications - we use Ubuntu 18.04 deployed to 2 core, 4 GB RAM, 100 GB SSD VPS;
 * **Google Drive Account** which is used to upload the feedback events results in the form of spreadsheets - the account can be personal or business, but proper account permissions must be configured;
