@@ -22,6 +22,37 @@ The frontend is developed in TypeScript and Angular. Before going to open source
 
 The system is designed to be deployed as Dockerized application.
 
+## Features
+
+Open360 can serve sophisticated organizational structure. All users are organized into **projects** which are real-life projects or organizational units if the organization uses functional approach. Every project includes one or many **groups**, where every group is a set of users which are interviewed the same way, e.g. Engineers, Managers, C-level. Groups can be organized in a hierarchy, e.g. Project X/Managers  and Project Y/Managers.
+
+Every **project** is a set of the following triplets:
+* group which answers the questions;
+* group which is the subject of answered questions;
+* form with questions.
+
+E.g. defined
+```
+Groups:
+* Engineers: John, Mary
+* Managers: Carl, Susan
+* All: John, Mary, Carl, Susan
+
+Forms:
+* Form_Engineers: 
+  * Always able to help with tasks? YES/NO
+* Form_Managers:
+  * Working according your expectations? YES/NO
+* Form_All:
+  * Want go in the next project with him/her? SURE/NO
+
+Project:
+* Engineers > Form_Engineers > Managers
+* Managers > Form_Managers > Engineers
+* All > Form_All > All
+
+```
+
 ## User Documentation
 
 We have user [documentation](https://github.com/o360/user-documentation) which helps start using the deployed system without extra hassle. This documentation will be especially useful for the personnel who design and run 360 degree feedback events. 
