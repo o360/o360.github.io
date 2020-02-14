@@ -6,7 +6,7 @@ It was initially developed by [Bitworks Software](https://bitworks.software/) fo
 
 ![](/open360.png)
 
-## Integration with organizational infrastructure
+## Integration with the Organizational Infrastructure
 
 We at Bitworks actively use Google services for business, so it will be easiest to start using the system for those companies that also use this service.
 
@@ -14,7 +14,7 @@ However, before publishing in Open Source, we implemented several additional soc
 
 Currently, the feedback results are exported either in JSON format or in the form of spreadsheets on Google Drive. So for the system to work you need a Google account with the correct permissions. Currently, the system does not allow exporting feedback results in any other way.
 
-## Technological stack & Requirements
+## Technological Stack & Requirements
 
 The backend of the system is developed in Scala and the Play framework. At the time of publication, we migrated the backend code for the latest Scala release in branch 2 - 2.13. The system uses PostgreSQL as a DBMS; migrations are done using Flyway. The system API is designed in Swagger.
 
@@ -38,6 +38,15 @@ To deploy the system you need to meet several requirements:
 
 Now you are ready to deploy the system. Follow the [deployment guide](/deployment-guide.html) provided in the documentation.
 
+## Help & Requests
 
+If you found a bug or promote a proposal, open new issue:
+* [backend](https://github.com/o360/backend/issues/new)
+* [frontend](https://github.com/o360/frontend/issues/new)
 
+If you propose a fix or improvement, send the PR:
+* [backend](https://github.com/o360/backend/contributing.md)
+* [frontend](https://github.com/o360/frontend/contributing.md)
+
+If you need othe assistance or want implement some custom requirements with our help, email us: open360@bw-sw.com
 
