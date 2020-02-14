@@ -22,7 +22,7 @@ The frontend is developed in TypeScript and Angular. Before going to open source
 
 The system is designed to be deployed as Dockerized application.
 
-## Features
+## Basic Ideas
 
 Open360 can serve sophisticated organizational structure. All users are organized into **projects** which are real-life projects or organizational units if the organization uses functional approach. Every project includes one or many **groups**, where every group is a set of users which are interviewed the same way, e.g. Engineers, Managers, C-level. Groups can be organized in a hierarchy, e.g. Project X/Managers  and Project Y/Managers.
 
@@ -48,14 +48,16 @@ Forms:
   - Want go in the next project with him/her? SURE/NO
 
 Project:
-Interviewer: HR
-Relations:
-   - Engineers > Form_Engineers > Managers
-   - Managers > Form_Managers > Engineers
-   - All > Form_All > All
+  Interviewer: HR
+  Relations:
+     - Engineers > Form_Engineers > Managers
+     - Managers > Form_Managers > Engineers
+     - All > Form_All > All
 ```
 
 So, based on the above example, when the **feedback event** is lauched, every person from the group 'Engineers' will be asked about the every person located in the group 'Managers' questions placed in the form 'Form_Engineers'. The same logic will be applied to all the relations established inside the project.
+
+When the 360 degree event feedback is finished, all the responses are filled into spreadsheets and are placed into specified Google Account.
 
 ## User Documentation
 
