@@ -4,6 +4,8 @@ Open360 helps HR personnel in various organizations design, plan and run P2P fee
 
 It was initially developed by [Bitworks Software](https://bitworks.software/) for internal purposes in 2016 and released to open source in 2020. We at Bitworks successfuly use Open360 since 2016, which helped us to improve internal HR processes significantly.
 
+![](/open360.png)
+
 ## Integration with organizational infrastructure
 
 We at Bitworks actively use Google services for business, so it will be easiest to start using the system for those companies that also use this service.
