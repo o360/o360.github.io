@@ -2,15 +2,15 @@
 
 Open360 helps HR personnel in various organizations design, plan and run P2P feedback events. It's based on well-known [360 degree](https://en.wikipedia.org/wiki/360-degree_feedback) feedback approach. 
 
-It was initially developed by [Bitworks Software](https://bitworks.software/en/) for internal purposes in 2016 and released to open source in 2020. We successfuly use the system since 2017, which helped us to improve internal HR processes significantly.
+It was initially developed by [Bitworks Software](https://bitworks.software/en/) for internal purposes in 2016 and released to open source under Apache License 2.0 at the beginning of 2020. We successfully use the system since 2017, which helped us to improve internal HR processes significantly.
 
 ![](/open360.png)
 
 ## Integration with the Organizational Infrastructure
 
-We at Bitworks actively use Google services for business, so it will be easiest to start using the system for those companies that also use this service.
+At Bitworks we actively use Google services for business, so initially, Open360 was intended to be used with Google OAuth and Google Applications (Spreadsheets).
 
-However, before publishing in Open Source, we implemented several additional social authenticators and a universal authenticator which works through an external HTTP request, which allows organizations to easily integrate Open360 into their infrastructure.
+However, before publishing in Open Source, we implemented several additional social authenticators and a universal authenticator which works through an external HTTP request, which allows organizations to easily integrate Open360 into their authentication infrastructure.
 
 Currently, the feedback results are exported either in JSON format or in the form of spreadsheets on Google Drive. So for the system to work you need a Google account with the correct permissions. Currently, the system does not allow exporting feedback results in any other way.
 
