@@ -34,24 +34,28 @@ Every **project** is a set of the following triplets:
 E.g. defined
 ```
 Groups:
-* Engineers: John, Mary
-* Managers: Carl, Susan
-* All: John, Mary, Carl, Susan
+- Engineers: John, Mary
+- Managers: Carl, Susan
+- All: John, Mary, Carl, Susan
+- HR: Helga
 
 Forms:
-* Form_Engineers: 
-  * Always able to help with tasks? YES/NO
-* Form_Managers:
-  * Working according your expectations? YES/NO
-* Form_All:
-  * Want go in the next project with him/her? SURE/NO
+- Form_Engineers: 
+  - Always able to help with tasks? YES/NO
+- Form_Managers:
+  - Working according your expectations? YES/NO
+- Form_All:
+  - Want go in the next project with him/her? SURE/NO
 
 Project:
-* Engineers > Form_Engineers > Managers
-* Managers > Form_Managers > Engineers
-* All > Form_All > All
-
+Interviewer: HR
+Relations:
+   - Engineers > Form_Engineers > Managers
+   - Managers > Form_Managers > Engineers
+   - All > Form_All > All
 ```
+
+So, based on the above example, when the **feedback event** is lauched, every person from the group 'Engineers' will be asked about the every person located in the group 'Managers' questions placed in the form 'Form_Engineers'. The same logic will be applied to all the relations established inside the project.
 
 ## User Documentation
 
