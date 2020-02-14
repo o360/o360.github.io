@@ -14,14 +14,6 @@ However, before publishing in Open Source, we implemented several additional soc
 
 Currently, the feedback results are exported either in JSON format or in the form of spreadsheets on Google Drive. So for the system to work you need a Google account with the correct permissions. Currently, the system does not allow exporting feedback results in any other way.
 
-## Technological Stack & Requirements
-
-The backend of the system is developed in Scala and the Play framework. At the time of publication, we migrated the backend code for the latest Scala release in branch 2 - 2.13. The system uses PostgreSQL as a DBMS; migrations are done using Flyway. The system API is designed in Swagger.
-
-The frontend is developed in TypeScript and Angular. Before going to open source, we updated Angular to version 9.0.2.
-
-The system is designed to be deployed as Dockerized application.
-
 ## Basic Ideas
 
 Open360 can serve sophisticated organizational structure. All users are organized into **projects** which are real-life projects or organizational units if the organization uses functional approach. Every project includes one or many **groups**, where every group is a set of users which are interviewed the same way, e.g. Engineers, Managers, C-level. Groups can be organized in a hierarchy, e.g. Project X/Managers  and Project Y/Managers.
@@ -64,6 +56,14 @@ When the 360 degree event feedback is finished, all the responses are filled int
 We have user [documentation](https://github.com/o360/user-documentation) which helps start using the deployed system without extra hassle. This documentation will be especially useful for the personnel who design and run 360 degree feedback events. 
 
 For the employees who participate in the events, the system usage is pretty straightforward and doesn't require special knowledge.
+
+## Software Stack
+
+The backend of the system is developed in Scala and the Play framework. At the time of publication, we migrated the backend code for the latest Scala release in branch 2 - 2.13. The system uses PostgreSQL as a DBMS; migrations are done using Flyway. The system API is designed in Swagger.
+
+The frontend is developed in TypeScript and Angular. Before going to open source, we updated Angular to version 9.0.2.
+
+The system is designed to be deployed as Dockerized application.
 
 ## Getting Started
 
