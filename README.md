@@ -40,9 +40,8 @@ Now you are ready to deploy the system. Follow the [deployment guide](/deploymen
 
 ## Help & Requests
 
-If you found a bug or promote a proposal, open new issue: [backend](https://github.com/o360/backend/issues/new), [frontend](https://github.com/o360/frontend/issues/new)
-
-If you propose a fix or improvement, send the PR: [backend](https://github.com/o360/backend/contributing.md), [frontend](https://github.com/o360/frontend/contributing.md)
-
-If you need other assistance or want implement a custom requirement with our help, email us: open360@bw-sw.com
+Several tips for collaboration:
+* found a bug or promote a proposal, open new issue: [backend](https://github.com/o360/backend/issues/new), [frontend](https://github.com/o360/frontend/issues/new)
+* propose a fix or improvement, send the PR: [backend](https://github.com/o360/backend/contributing.md), [frontend](https://github.com/o360/frontend/contributing.md)
+* need other assistance or want implement a custom requirement with our help, email us: open360@bw-sw.com
 
