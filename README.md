@@ -44,5 +44,5 @@ If you found a bug or promote a proposal, open new issue: [backend](https://gith
 
 If you propose a fix or improvement, send the PR: [backend](https://github.com/o360/backend/contributing.md) | [frontend](https://github.com/o360/frontend/contributing.md)
 
-If you need othe assistance or want implement some custom requirements with our help, email us: open360@bw-sw.com
+If you need other assistance or want implement a custom requirement with our help, email us: open360@bw-sw.com
 
