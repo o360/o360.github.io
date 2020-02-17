@@ -2,7 +2,7 @@
 
 Open360 helps HR personnel in various organizations design, plan and run P2P feedback events. It's based on well-known [360 degree](https://en.wikipedia.org/wiki/360-degree_feedback) feedback approach. 
 
-It was initially developed by [Bitworks Software](https://bitworks.software/en/) for internal purposes in 2016 and released to open source under Apache License 2.0 at the beginning of 2020. We successfully use the system since 2017, which helped us to improve internal HR processes significantly.
+The software was developed by [Bitworks Software](https://bitworks.software/en/) for internal purposes in 2016 and released to open source under Apache License 2.0 at the beginning of 2020. We have been used the system successfully since 2017, which helped us to improve internal HR processes significantly.
 
 ![](/open360.png)
 
