@@ -6,6 +6,10 @@ The software was developed by [Bitworks Software](https://bitworks.software/en/)
 
 ![](/open360.png)
 
+## Admin workflow
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T32f1Z-SCGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Integration with the Organizational Infrastructure
 
 At Bitworks we actively use Google services for business, so initially, Open360 was intended to be used with Google OAuth and Google Applications (Spreadsheets).
